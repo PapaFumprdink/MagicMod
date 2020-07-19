@@ -2,13 +2,14 @@ package com.papafumprdink.magicmod.utilities.handlers;
 
 import com.papafumprdink.magicmod.init.ModItems;
 import com.papafumprdink.magicmod.utilities.IHasModel;
+import com.papafumprdink.magicmod.utilities.Reference;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod.EventBusSubscriber
+@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 public class RegistryHandler
 {
     @SubscribeEvent
